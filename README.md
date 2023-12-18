@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Simple Todo App with Next.js 14
 
-First, run the development server:
+This is a straightforward Todo application built using Next.js 14. It allows users to create, view, and delete tasks, leveraging Prisma as the database.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Add Tasks:** Easily add new tasks to the list.
+- **Delete Tasks:** Remove tasks that are completed or no longer needed.
+- **View Tasks:** Display all tasks in the list.
+- **Responsive Design:** The app is responsive and works seamlessly on various devices.
+
+## Technologies Used
+
+- **Next.js 14:** A React framework that provides server-side rendering and other useful features.
+- **React:** A JavaScript library for building user interfaces.
+- **Prisma:** A modern database toolkit for TypeScript and Node.js.
+- **Tailwind CSS:** A utility-first CSS framework used for styling the app.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/davinci321/nextjs-todo.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd nextjs-todo
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Set up your database and Prisma:
+
+   ```bash
+   # Replace the following command with your Prisma setup command
+   npx prisma migrate dev
+   ```
+
+## Usage
+
+Once the installation is complete, you can start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` in your web browser to access the Todo app. From there, you can add, view, and manage your tasks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you want to contribute to this project, follow these steps:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
