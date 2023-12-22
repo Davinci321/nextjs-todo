@@ -1,4 +1,3 @@
-
 # Simple Todo App with Next.js 14
 
 This is a straightforward Todo application built using Next.js 14. It allows users to create, view, and delete tasks, leveraging Prisma as the database.
